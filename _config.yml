@@ -1,0 +1,4 @@
+auto: true
+permalink: none
+markdown: rdiscount
+pygments: true

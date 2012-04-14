@@ -1,0 +1,37 @@
+---
+layout: page
+title: CANsniff - an open source CAN protocol sniffer
+---
+
+<center>
+<h1>CANsniff</h1>
+<p>Sniffs the CAN bus</p>
+</center>
+
+<p/><p/>
+
+<pre><h3>Introduction</h3></pre>
+<p align="justify">This is a project made for sniffing CAN protocol buses. The complete source code and hardware designs are open source. CANsniff can handle upto bitrates of 1 Mbits/s. The present system uses LPC2168 (http://www.nxp.com/products/microcontrollers/arm7/lpc2300/LPC2368FBD100.html) ARM7 microcontroller from NXP(Philips). It has two CAN ports, an USB port, an ethernet port and support for SD/MMC. The CAN controller is based on Philips SJA1000. Using the USB or ethernet port, data can be streamed in to the PC in very fast rate. So transfering of 1 Mbits/S data rates in the CAN bus to the PC is not a problem.</p>
+
+<pre><h3>Hardware design</h3></pre>
+<img src ="http://github.com/acbus/cansniff/raw/master/hardware/block_diagram/CANsniff.png" alt="CANsniff block diagram" title="CANsniff block diagram" />
+<pre><h3>Software design</h3></pre>
+
+<pre><h3>Download</h3></pre>
+<p>Browse the project online - <a href="http://github.com/acbus/cansniff">http://github.com/acbus/cansniff</a></p>
+<p>Zip version of the project - <a href="https://github.com/acbus/cansniff/zipball/master">https://github.com/acbus/cansniff/zipball/master</a></p>
+<p>Also you can clone the project using
+<code>git clone git@github.com:acbus/cansniff.git</code></p>
+
+<pre><h3>Discussions about the project</h3></pre>
+<p><a href="http://acbus.org/discussions"> ACBuS discussions </a></p>
+
+<pre><h3>Future Ideas</h3></pre>
+1) Add support for On Board Diagnostics<br/>
+2) Single node(only one CAN port) version of CANsniff<br/>
+3) Storage to SD card for stand alone sniffing<br/>
+4) Veiw CAN bus voltage using the ADC in microcontroller<br/>
+5) Isolate either the transceiver or USB from the microcontroller<br/>
+6) Enable ethernet port for transfering data to PC<br/>
+
+
