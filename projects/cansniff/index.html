@@ -11,11 +11,15 @@ title: CANsniff - an open source CAN protocol sniffer
 <p/><p/>
 
 <pre><h3>Introduction</h3></pre>
-<p align="justify">This is a project made for sniffing CAN protocol buses. The complete source code and hardware designs are open source. CANsniff can handle upto bitrates of 1 Mbits/s. The present system uses LPC2168 (http://www.nxp.com/products/microcontrollers/arm7/lpc2300/LPC2368FBD100.html) ARM7 microcontroller from NXP(Philips). It has two CAN ports, an USB port, an ethernet port and support for SD/MMC. The CAN controller is based on Philips SJA1000. Using the USB or ethernet port, data can be streamed in to the PC in very fast rate. So transfering of 1 Mbits/S data rates in the CAN bus to the PC is not a problem.</p>
+<p align="justify">This is a project made for sniffing CAN protocol bus. The complete source code and hardware designs are open source. CANsniff can handle upto bitrates of 1 Mbits/s. The initial paln is to use <a href="http://www.st.com/internet/evalboard/product/252419.jsp"> STM32F4DISCOVERY </a>. A hardware will be designed once the software is ready.</p>
 
 <pre><h3>Hardware design</h3></pre>
 <img src ="http://github.com/acbus/cansniff/raw/master/hardware/block_diagram/CANsniff.png" alt="CANsniff block diagram" title="CANsniff block diagram" />
+<p>1) </p>
+<p>2) </p>
+
 <pre><h3>Software design</h3></pre>
+<p>The default serial port in the controller can be used for debugging purpose and intial development. For hight speed data transfer, the USB port can be used. </p>
 
 <pre><h3>Download</h3></pre>
 <p>Browse the project online - <a href="http://github.com/acbus/cansniff">http://github.com/acbus/cansniff</a></p>
@@ -33,5 +37,8 @@ title: CANsniff - an open source CAN protocol sniffer
 4) Veiw CAN bus voltage using the ADC in microcontroller<br/>
 5) Isolate either the transceiver or USB from the microcontroller<br/>
 6) Enable ethernet port for transfering data to PC<br/>
+7) Add EEPROM chip to save settings for stand alone mode<br/>
+8) LIN support
+
 
 
