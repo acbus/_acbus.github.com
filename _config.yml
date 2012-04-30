@@ -1,4 +1,4 @@
 auto: true
-permalink: permalink: /:year/:month/:title
+permalink: /blog/:title
 markdown: rdiscount
 pygments: true
