@@ -10,7 +10,7 @@ title: ACBuS Blog
 {% assign first_post = site.posts.first %}
 <div id="post">
   <h2><a href="{{ first_post.url }}">{{ first_post.title }}</a></h2>
-  <div id="date">published {{ first_post.date | date_to_string }}</div>
+  <i><div id="date">published {{ first_post.date | date_to_string }}</div></i>
   <p>{{ first_post.content }}</p>
 </div>
 
