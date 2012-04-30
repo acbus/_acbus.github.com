@@ -8,32 +8,44 @@
 
 <url>
   <loc>http://acbus.org/</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://acbus.org/projects/</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acbus.org/projects/cansniff/</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://acbus.org/projects/flexraysniff/</loc>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acbus.org/discussions/</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://acbus.org/blog/</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://acbus.org/blog/test.html</loc>
-  <lastmod>2012-03-24T19:22:22+00:00</lastmod>
+  <loc>http://acbus.org/blog/InitialDesignPlans/</loc>
+  <lastmod>2012-04-30T06:27:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
