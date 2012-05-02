@@ -2,10 +2,22 @@
  * ACBuS extra page styles
  */
 
-/*
+
 body {
 	margin-top:50px;
 	margin-right:50px;
 	margin-left:50px;
 }
-*/
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #555;
+}
+
