@@ -7,8 +7,3 @@ body {
 	margin-right:50px;
 	margin-left:50px;
 }
-
-/* copied from raspberrypi.org */
-footer{padding:20px 0;margin-top:20px;border-top:1px solid #CCC;clear:both;background-color:#ffffff;-webkit-border-radius:0px 0px 10px 10px;-moz-border-radius:0px 0px 10px 10px;border-radius:0px 0px 10px 10px;}
-.text-right,.text-right{text-align:right;}
-.text-center,.text-center{text-align:center;}
