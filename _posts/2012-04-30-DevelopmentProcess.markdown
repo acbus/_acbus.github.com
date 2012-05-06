@@ -3,9 +3,9 @@ layout: post
 title :  Development Process
 ---
 
-As mentioned before the development will be done on <a href="http://www.st.com/internet/evalboard/product/252419.jsp"> STM32F4DISCOVERY </a>. Previously the plan was to develop on LPC1768 Philips ARM Cortex M3 controller. But the STM32Discovery kit contains much more powerful controller. The details about the controller in the STM32F4DISCOVERY will be discussed later.
+As mentioned before, the development will be done on <a href="http://www.st.com/internet/evalboard/product/252419.jsp"> STM32F4DISCOVERY </a> kit. Previously the plan was to develop on LPC1768 Philips ARM Cortex M3 microcontroller. But the STM32Discovery kit contains much more powerful controller. The details about the controller in the STM32F4DISCOVERY will be discussed later.
 
-On the kit, initially a serial port will be setup. The serial port will be used to controll the CAN controller. The serial port can also be used for debugging purpose. Once the CAN communication is running with serial communication (only slow speed CAN communication), the USB port will be enabled. CAN data rates of 1Mbits/Sec will be made possible to exchange towards PC (Host) side using USB port. Initially to test USB, a sample LED controll can be developed. Using libusb, the host controll software for the hardware will be written using C (Python will be supported in future).
+On the kit, initially a serial port will be setup. The serial port will be used to controll the CAN controller. The serial port can also be used for debugging purpose. Once the CAN communication is running with serial communication (only slow speed CAN communication), the USB port will be enabled. CAN data rates of 1Mbits/Sec will be made possible to exchange towards PC (Host) side using USB port. Initially to test USB, a sample LED control can be developed. Using libusb, the host controll software for the hardware will be written using C (Python will be supported in future).
 
 By this time the STM32Discovery kit has been proved for the project and a parallel development of the hardware will be done. The schematics of the implementation done on STM32Discovery kit will be still available so that the user who has access to the STM32Discovery kit can modify and make CANsniff.
 
