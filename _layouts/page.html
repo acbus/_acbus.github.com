@@ -44,22 +44,26 @@
 	<body>
 
 <!-- BEGIN Navigation Bar -->
-	    <div class="navbar navbar-fixed-top">
-	      <div class="navbar-inner">
-	        <div class="container">
- 	         <a class="brand" href="http://acbus.org/">ACBuS</a>
-	            <ul class="nav">
-			<li><a href="http://acbus.org/projects">Projects</a>
-                  	</li>
-	              <li><a href="http://acbus.org/discussions">Discussions</a></li>
-	              <li><a href="http://acbus.org/blog">Blog</a></li>
-	            </ul>
-	        </div>
-	      </div>
-	    </div>
+    <div class="navbar navbar-fixed-top"> 
+      <div class="navbar-inner"> 
+        <div class="container"> 
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+          </a> 
+          <a class="brand" href="http://acbus.org/">ACBuS</a> 
+          <div class="nav-collapse"> 
+            <ul class="nav"> 
+			<li><a href="http://acbus.org/projects">Projects</a></li>
+			<li><a href="http://acbus.org/discussions">Discussions</a></li>
+			<li><a href="http://acbus.org/blog">Blog</a></li>
+            </ul> 
+          </div><!--/.nav-collapse --> 
+        </div> 
+      </div> 
+    </div> 
 <!-- END Navigation Bar -->
-
-
 
 		{{ content }}
 
